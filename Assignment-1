@@ -1,0 +1,28 @@
+A=["Swaruchi","Mhatre","Female","Student"]
+B=["9132","TYBSc","B"]
+
+tuple(A)
+
+tuple(B)
+
+a=('Swaruchi', 'Mhatre', 'Female', 'Student')
+b=('9132', 'TYBSc', 'B')
+
+print(type(a))
+
+a
+print(a[:3])
+print(a[2:])
+print(a[3])
+print(a[:2])
+print(a[1:2])
+print(b,"\n")
+
+for j in a:
+    print(j)
+
+if "TYBSc" in b:
+    print("Swaruchi is in TYBSc")
+
+c=tuple("Pune")
+a+b+c
